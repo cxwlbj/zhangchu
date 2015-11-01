@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6751" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="PGe-qn-9Bk">
+            <rect key="frame" x="0.0" y="0.0" width="267" height="37"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="搜索-放大镜.png" translatesAutoresizingMaskIntoConstraints="NO" id="jJO-Lw-di1">
+                    <rect key="frame" x="14" y="9" width="20" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="20" id="Xlv-P0-pfL"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" tag="2001" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8zc-GP-5a0">
+                    <rect key="frame" x="44" y="4" width="215" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <inset key="titleEdgeInsets" minX="-30" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" title="请输入菜名或食材搜索">
+                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="jJO-Lw-di1" firstAttribute="top" secondItem="PGe-qn-9Bk" secondAttribute="top" constant="9" id="3g7-7Y-fpr"/>
+                <constraint firstAttribute="trailing" secondItem="8zc-GP-5a0" secondAttribute="trailing" constant="8" id="LbD-wb-Rbm"/>
+                <constraint firstAttribute="bottom" secondItem="jJO-Lw-di1" secondAttribute="bottom" constant="8" id="XCy-Nh-Fg0"/>
+                <constraint firstItem="8zc-GP-5a0" firstAttribute="top" secondItem="PGe-qn-9Bk" secondAttribute="top" constant="4" id="aVR-WM-9hz"/>
+                <constraint firstAttribute="bottom" secondItem="8zc-GP-5a0" secondAttribute="bottom" constant="3" id="mp1-b8-kJS"/>
+                <constraint firstItem="jJO-Lw-di1" firstAttribute="leading" secondItem="PGe-qn-9Bk" secondAttribute="leading" constant="14" id="nh4-5i-0be"/>
+                <constraint firstItem="8zc-GP-5a0" firstAttribute="leading" secondItem="jJO-Lw-di1" secondAttribute="trailing" constant="10" id="poR-XE-GcM"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="419.5" y="241.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="搜索-放大镜.png" width="30" height="30"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

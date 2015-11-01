@@ -1,0 +1,55 @@
+//
+//  XiaoChu.pch
+//  YangGuangXiaoChu
+//
+//  Created by imac on 15/9/26.
+//  Copyright (c) 2015年 imac. All rights reserved.
+//
+
+#ifndef YangGuangXiaoChu_XiaoChu_pch
+#define YangGuangXiaoChu_XiaoChu_pch
+
+//获取屏幕的物理尺寸
+#define kScreenWidth [UIScreen mainScreen].bounds.size.width
+#define kScreenHeight [UIScreen mainScreen].bounds.size.height
+//友盟AppKey
+#define kAppKey @"5610873867e58e998e002b7d"
+
+
+
+
+
+//导入工具类头文件
+#import "UIViewExt.h"
+#import "UIImageView+WebCache.h"
+#import "UIButton+WebCache.h"
+#import "UIView+ViewContorller.h"
+
+
+
+
+#import "DataService.h"
+#import "BaseModel.h"
+#import "HotModel.h"
+#import "BtnBaseViewController.h"
+#import "DetailViewController.h"
+#import "WebBaseViewController.h"
+
+#import <MediaPlayer/MediaPlayer.h>
+
+#import "MJRefresh.h"
+//友盟组件
+#import "UMSocial.h"
+
+
+
+//设置是否调试模式
+#ifdef DEBUG
+#else
+#define NSLog(...) ((void)0);
+#endif
+
+
+
+
+#endif
